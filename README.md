@@ -9,15 +9,15 @@ Download
 Download [the latest JAR][2] or Maven:
 ```xml
 <dependency>
-  <groupId>com.txm.topcodes.smartcache</groupId>
-  <artifactId>smartcache</artifactId>
-  <version>0.1.3</version>
+  <groupId>com.txm.topcodes.autocache</groupId>
+  <artifactId>autocache</artifactId>
+  <version>0.1.1</version>
   <type>pom</type>
 </dependency>
 ```
 or Gradle:
 ```groovy
-compile 'com.txm.topcodes.smartcache:smartcache:0.1.3'
+compile 'com.txm.topcodes.autocache:autocache:0.1.1'
 ```
 
 Snapshots of the development version are available in [Tangxianming's `snapshots` repository][snap].
@@ -38,6 +38,6 @@ License
     limitations under the License.
 
 
- [1]: https://github.com/tangxianming/smart-cache
+ [1]: https://github.com/tangxianming/auto-cache
  [2]: #
  [snap]: https://dl.bintray.com/kimball/maven/

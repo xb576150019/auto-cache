@@ -1,0 +1,13 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.idea/vcs.xml
+example/libs/
+example/src/main/res/drawable/
+smartcache/libs/
+smartcache/src/main/res/drawable/

@@ -6,7 +6,7 @@ An autoCache frame for Android. For more information see [the website][1].
 Download
 --------
 
-Download [the latest JAR][2] or Maven:
+Maven:
 ```xml
 <dependency>
   <groupId>com.txm.topcodes.autocache</groupId>
@@ -39,5 +39,4 @@ License
 
 
  [1]: https://github.com/tangxianming/auto-cache
- [2]: #
  [snap]: https://dl.bintray.com/kimball/maven/

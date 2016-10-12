@@ -138,7 +138,6 @@ public class AutoCache {
 							callBack.onStart();
 						}
 					})
-
 					.subscribeOn(AndroidSchedulers.mainThread())
 					.doOnNext(new Action1<byte[]>() {
 						@Override
@@ -162,7 +161,7 @@ public class AutoCache {
 							});
 						}
 					})
-					.subscribeOn(AndroidSchedulers.mainThread())
+					.observeOn(AndroidSchedulers.mainThread())
 					.subscribe(new Subscriber<byte[]>() {
 						@Override
 						public void onCompleted() {

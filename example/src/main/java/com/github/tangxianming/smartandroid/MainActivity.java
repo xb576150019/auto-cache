@@ -4,8 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.txm.topcodes.smartcache.CallBack;
-import com.txm.topcodes.smartcache.SmartCache;
+import com.txm.topcodes.autocache.AutoCache;
+import com.txm.topcodes.autocache.CallBack;
+import com.txm.topcodes.autocache.CallBackAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,8 +14,7 @@ public class MainActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-		SmartCache.MediaCache.getInstance(this).asyncCache("http://lcell.bnu.edu.cn/v2/public/photo/2016/9/120_145b0f67-23da-45ea-8371-e6251c7c14f5.JPEG", new CallBack() {
+		AutoCache.MediaCache.getInstance(this).asyncCache("http://lcell.bnu.edu.cn/v2/public/photo/2016/9/120_145b0f67-23da-45ea-8371-e6251c7c14f5.JPEG", new CallBack() {
 			@Override
 			public void onStart() {
 				//Run in UI thread
@@ -36,7 +36,10 @@ public class MainActivity extends AppCompatActivity {
 			public void onErro(Throwable e) {
 				//Run in UI thread
 			}
-		}, SmartCache.DIRECTORY_PICTURES, "filename");
-
+		}, AutoCache.DIRECTORY_PICTURES, "filename");
 	}
+
+
+
+
 }

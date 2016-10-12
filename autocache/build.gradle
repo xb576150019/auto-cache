@@ -12,7 +12,7 @@ ext {
     siteUrl = 'https://github.com/tangxianming/auto-cache'
     gitUrl = 'https://github.com/tangxianming/auto-cache.git'
 
-    libraryVersion = '0.1.1'
+    libraryVersion = '0.1.2'
 
     developerId = 'kimball'
     developerName = 'Tang Xianming'

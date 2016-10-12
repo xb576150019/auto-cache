@@ -11,13 +11,13 @@ Maven:
 <dependency>
   <groupId>com.txm.topcodes.autocache</groupId>
   <artifactId>autocache</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <type>pom</type>
 </dependency>
 ```
 or Gradle:
 ```groovy
-compile 'com.txm.topcodes.autocache:autocache:0.1.1'
+compile 'com.txm.topcodes.autocache:autocache:0.1.2'
 ```
 
 Snapshots of the development version are available in [Tangxianming's `snapshots` repository][snap].

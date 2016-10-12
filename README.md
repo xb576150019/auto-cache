@@ -38,5 +38,5 @@ License
     limitations under the License.
 
 
- [1]: https://github.com/tangxianming/auto-cache
+ [1]: http://www.jianshu.com/p/1df4dbd90046
  [snap]: https://dl.bintray.com/kimball/maven/
